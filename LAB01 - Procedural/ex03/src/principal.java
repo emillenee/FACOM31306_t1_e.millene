@@ -48,12 +48,23 @@ public class principal {
 
     public static void ex03() {
         Scanner sc = new Scanner(System.in);
-        // ....
+        int[] vetor = new int[6];
+        System.out.println("<< Listando um vetor >>");
+        for(int i = 0; i < 6; i++){
+            System.out.printf("Entre com um número %d:\n", i+1);
+            vetor[i] = sc.nextInt();
+        }
+        System.out.println("A ordem inversa dos números é:");
+        for(int i = 6; i > 0; i--){
+            System.out.printf("%d ", vetor[i-1]);
+        }
     }
 
     public static void main(String[] args) {
         // ex01();
-        ex02();
+        //ex02();
+        ex03();
+        
     }
 
 
