@@ -449,6 +449,7 @@ public class principal {
                 for (int j = i + 1; j < 8; j++) {
                     if (temp == vet[j]) {
                         vetResul[tResul] = temp;
+                        vetQ[tResul] = 1;
                         tResul++;
                         break;
                     }
@@ -457,7 +458,7 @@ public class principal {
         }
         System.out.println("Valores repetidos:");
         for (int i = 0; i < tResul; i++) {
-            System.out.printf("%d aparece %d vezes\n", vetResul[i], vetQ[i]+1);
+            System.out.printf("%d aparece %d vezes\n", vetResul[i], vetQ[i]);
         }
     }
 
