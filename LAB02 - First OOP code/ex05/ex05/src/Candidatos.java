@@ -7,9 +7,6 @@ public class Candidatos {
     private int numP;
     private String cargo;
 
-    public Candidatos (){
-    }
-
     public Candidatos(String nome, String dataNasc, String genero,
                       double bens, boolean reeleicao, int numP, String cargo){
         this.nome = nome;

@@ -15,8 +15,8 @@ public class Main {
             candidato[i] = new Candidatos(nomes[i], datasNasc[i], generos[i], bens[i], reeleicoes[i], numerosP[i], cargos[i]);
         }
 
-        for(int i = 0; i<qtd; i++){
-            candidato[i].panfleto();
+        for(Candidatos c : candidato){
+            c.panfleto();
         }
     }
 }
