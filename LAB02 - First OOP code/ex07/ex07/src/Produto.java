@@ -39,11 +39,11 @@ public class Produto {
         this.quantidade = quantidade;
     }
 
-    public void mostrarProduto(){
+    public void mostrarProduto() {
         System.out.println("-------------------");
-        System.out.printf("Nome: %s\n", nome);
-        System.out.printf("Preço: %.2f\n", preco);
-        System.out.printf("Estoque: %d\n", quantidade);
+        System.out.printf("Nome: %s\n", getNome());
+        System.out.printf("Preço: %.2f\n", getPreco());
+        System.out.printf("Estoque: %d\n", getQuantidade());
         System.out.println("-------------------");
     }
 }

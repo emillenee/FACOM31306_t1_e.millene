@@ -24,9 +24,11 @@ public class Main {
                     menor = j;
                 }
             }
-            Produto temp = produtos[menor];
-            produtos[menor] = produtos[i];
-            produtos[i] = temp;
+            if(menor != i){
+                Produto temp = produtos[menor];
+                produtos[menor] = produtos[i];
+                produtos[i] = temp;
+            }
         }
     }
 }
