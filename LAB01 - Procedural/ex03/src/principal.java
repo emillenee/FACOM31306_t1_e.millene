@@ -463,7 +463,6 @@ public class principal {
 
     public static void main(String[] args) {
         //ex01();
-<<<<<<< HEAD
         //ex02();
         //ex03();
         //ex04();
@@ -480,9 +479,8 @@ public class principal {
         //ex14Classe();
         //ex15();
         ex16();
-=======
         ex02();
         //ex03();
->>>>>>> 410c8d194ee74c713f6bc5eb9b4c6d54659a1bed
     }
 }
+
