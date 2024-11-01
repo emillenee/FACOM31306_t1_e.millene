@@ -1,0 +1,17 @@
+EX 03 - EXCEPTIONS
+
+- Diferença entre throws e throw:
+
+Throw é usado para lançar uma exceção que deve ser tratada em alguma parte do código. Durante a execução se a exceção não é
+tratada, então o JVM joga a exceção para o método que chamou o que gerou e assim vai passando até a main, se o problema chegar
+na main e não for tratada então o programa encerra a execução.
+
+Throws serve para indicar quais as possíveis exceções algum método pode lançar, delegando o tratamento da exceção para o método
+que chamou o atual. Deve ser usado quando o método lança uma checked exception.
+
+- Diferença entre checked e uncheked exceptions:
+
+Unchecked exception diz respeito as exceções que ocorrem em tempo de excução em que o programa compila normalmente, geralmente são 
+erros de lógica e por isso sua captura não é obrigatória.
+
+Já as Checked exceptions impedem a compilação do programa, é exigida sua captura e tratamento para que o programa seja construído.
